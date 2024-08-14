@@ -16,27 +16,27 @@ const NavbarComponent = () => {
                     <Navbar.Toggle aria-controls="basic-navbar-nav" />
                     <Navbar.Collapse id="basic-navbar-nav">
                         <Nav className="m-auto text-center">
-                            <Nav.Link as={Link} to="/bapenda-malut-web/">Home</Nav.Link>
+                            <Nav.Link as={Link} to="/bapendamalut-web/">Home</Nav.Link>
                             
                             <NavDropdown title="Profil" id="basic-nav-dropdown">
-                                <NavDropdown.Item as={Link} to="/bapenda-malut-web/visimisi">Visi Misi</NavDropdown.Item>
+                                <NavDropdown.Item as={Link} to="/bapendamalut-web/visimisi">Visi Misi</NavDropdown.Item>
                             </NavDropdown>
                             <NavDropdown title="Layanan Informasi" id="basic-nav-dropdown">
-                                <NavDropdown.Item as={Link} to="/bapenda-malut-web/maklumat">Maklumat Layanan</NavDropdown.Item>
-                                <NavDropdown.Item as={Link} to="/bapenda-malut-web/layanan-pengaduan">Layanan Pengaduan</NavDropdown.Item>
-                                <NavDropdown.Item as={Link} to="/bapenda-malut-web/kewajiban-pelayanan">Kewajiban Pelayanan</NavDropdown.Item>
-                                <NavDropdown.Item as={Link} to="/bapenda-malut-web/jenis-pelayanan">Jenis Pelayanan</NavDropdown.Item>
-                                <NavDropdown.Item as={Link} to="/bapenda-malut-web/privacy-policy">Privacy Policy</NavDropdown.Item>
+                                <NavDropdown.Item as={Link} to="/bapendamalut-web/maklumat">Maklumat Layanan</NavDropdown.Item>
+                                <NavDropdown.Item as={Link} to="/bapendamalut-web/layanan-pengaduan">Layanan Pengaduan</NavDropdown.Item>
+                                <NavDropdown.Item as={Link} to="/bapendamalut-web/kewajiban-pelayanan">Kewajiban Pelayanan</NavDropdown.Item>
+                                <NavDropdown.Item as={Link} to="/bapendamalut-web/jenis-pelayanan">Jenis Pelayanan</NavDropdown.Item>
+                                <NavDropdown.Item as={Link} to="/bapendamalut-web/privacy-policy">Privacy Policy</NavDropdown.Item>
                             </NavDropdown>
                             <NavDropdown title="Analisis" id="basic-nav-dropdown">
-                                <NavDropdown.Item as={Link} to="/bapenda-malut-web/analisis-esamsat">Analisis e-SAMSAT</NavDropdown.Item>
-                                <NavDropdown.Item as={Link} to="/bapenda-malut-web/analisis-non-esamsat">Analisis non e-SAMSAT</NavDropdown.Item>
+                                <NavDropdown.Item as={Link} to="/bapendamalut-web/analisis-esamsat">Analisis e-SAMSAT</NavDropdown.Item>
+                                <NavDropdown.Item as={Link} to="/bapendamalut-web/analisis-non-esamsat">Analisis non e-SAMSAT</NavDropdown.Item>
                             </NavDropdown>
                             <NavDropdown title="Simulasi Target Pendapatan" id="basic-nav-dropdown">
-                                <NavDropdown.Item as={Link} to="/bapenda-malut-web/simulasi-target-pendapatan-2023">2023</NavDropdown.Item>
-                                <NavDropdown.Item as={Link} to="/bapenda-malut-web/simulasi-target-pendapatan-2024">2024</NavDropdown.Item>
+                                <NavDropdown.Item as={Link} to="/bapendamalut-web/simulasi-target-pendapatan-2023">2023</NavDropdown.Item>
+                                <NavDropdown.Item as={Link} to="/bapendamalut-web/simulasi-target-pendapatan-2024">2024</NavDropdown.Item>
                             </NavDropdown>
-                            <Nav.Link as={Link} to="/bapenda-malut-web/kontak">Kontak</Nav.Link>
+                            <Nav.Link as={Link} to="/bapendamalut-web/kontak">Kontak</Nav.Link>
                         </Nav>
                         <div className='d-flex justify-content-center mt-2 mb-2'><Link to="https://esamalut.sipkd.id/#/login" target='blank'>
                             <Button variant='light'>Login e-Pendapatan</Button></Link>

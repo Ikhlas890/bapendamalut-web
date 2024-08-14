@@ -31,95 +31,95 @@ import Contact from './component/Contact.jsx';
 
 const router = createBrowserRouter([
     {
-        path: "/bapenda-malut-web/",
+        path: "/bapendamalut-web/",
         element: <App />,
         children: [
             {
-                path: "/bapenda-malut-web/",
+                path: "/bapendamalut-web/",
                 element: <HomePage />
             },
             {
-                path: "/bapenda-malut-web/visimisi",
+                path: "/bapendamalut-web/visimisi",
                 element: <VisimisiPage />
             },
             {
-                path: "/bapenda-malut-web/maklumat",
+                path: "/bapendamalut-web/maklumat",
                 element: <MaklumatPage />
             },
             {
-                path: "/bapenda-malut-web/layanan-pengaduan",
+                path: "/bapendamalut-web/layanan-pengaduan",
                 element: <LayananPengaduan />
             },
             {
-                path: "/bapenda-malut-web/kewajiban-pelayanan",
+                path: "/bapendamalut-web/kewajiban-pelayanan",
                 element: <KewajibanLayanan />
             },
             {
-                path: "/bapenda-malut-web/jenis-pelayanan",
+                path: "/bapendamalut-web/jenis-pelayanan",
                 element: <JenisPelayanan />
             },
             {
-                path: "/bapenda-malut-web/privacy-policy",
+                path: "/bapendamalut-web/privacy-policy",
                 element: <PrivacyPolicy />
             },
             {
-                path: "/bapenda-malut-web/analisis-esamsat",
+                path: "/bapendamalut-web/analisis-esamsat",
                 element: <AnalisisEsamsat />
             },
             {
-                path: "/bapenda-malut-web/analisis-non-esamsat",
+                path: "/bapendamalut-web/analisis-non-esamsat",
                 element: <AnalisisNonesamsat />
             },
             {
-                path: "/bapenda-malut-web/jam-pelayanan",
+                path: "/bapendamalut-web/jam-pelayanan",
                 element: <JamPelayanan />
             },
             {
-                path: "/bapenda-malut-web/sarana-prasarana",
+                path: "/bapendamalut-web/sarana-prasarana",
                 element: <SaranaPrasarana />
             },
             {
-                path: "/bapenda-malut-web/profil-samsat",
+                path: "/bapendamalut-web/profil-samsat",
                 element: <ProfilSamsat />
             },
             {
-                path: "/bapenda-malut-web/mekanisme-penanganan",
+                path: "/bapendamalut-web/mekanisme-penanganan",
                 element: <MekanismePenanganan />
             },
             {
-                path: "/bapenda-malut-web/all-post",
+                path: "/bapendamalut-web/all-post",
                 element: <AllpostPage />
             },
             {
-                path: "/bapenda-malut-web/simulasi-target-pendapatan-2023",
+                path: "/bapendamalut-web/simulasi-target-pendapatan-2023",
                 element: <SimulasiTarget2023 />
             },
             {
-                path: "/bapenda-malut-web/simulasi-target-pendapatan-2024",
+                path: "/bapendamalut-web/simulasi-target-pendapatan-2024",
                 element: <SimulasiTarget2024 />
             },
             {
-                path: "/bapenda-malut-web/ini-target-bapenda-maluku-utara-dalam-meraup-pendapatan-daerah-tahun-2023",
+                path: "/bapendamalut-web/ini-target-bapenda-maluku-utara-dalam-meraup-pendapatan-daerah-tahun-2023",
                 element: <BlogPage1 />
             },
             {
-                path: "/bapenda-malut-web/forum-rkpd-malut-tahun-2024-telah-digelar",
+                path: "/bapendamalut-web/forum-rkpd-malut-tahun-2024-telah-digelar",
                 element: <BlogPage2 />
             },
             {
-                path: "/bapenda-malut-web/sekprov-malut-tutup-pelatihan-kepemimpinan-asn",
+                path: "/bapendamalut-web/sekprov-malut-tutup-pelatihan-kepemimpinan-asn",
                 element: <BlogPage3 />
             },
             {
-                path: "/bapenda-malut-web/sekprov-malut-luncurkan-platform-pemberdayaan-digital",
+                path: "/bapendamalut-web/sekprov-malut-luncurkan-platform-pemberdayaan-digital",
                 element: <BlogPage4 />
             },
             {
-                path: "/bapenda-malut-web/bapenda-malut-akan-garap-dua-objek-sektor-pajak-baru",
+                path: "/bapendamalut-web/bapenda-malut-akan-garap-dua-objek-sektor-pajak-baru",
                 element: <BlogPage5 />
             },
             {
-                path: "/bapenda-malut-web/kontak",
+                path: "/bapendamalut-web/kontak",
                 element: <Contact />
             },
 
