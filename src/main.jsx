@@ -1,5 +1,5 @@
 import React, { StrictMode } from 'react'
-import ReactDOM from 'react-dom/client'
+import { createRoot } from 'react-dom/client'
 import App from './App.jsx'
 
 import 'bootstrap/dist/css/bootstrap.min.css';
@@ -122,13 +122,13 @@ const router = createBrowserRouter([
                 path: "/bapenda-malut-web/kontak",
                 element: <Contact />
             },
-            
+
         ]
     }
 ])
 
-ReactDOM.createRoot(document.getElementById('root')).render(
+createRoot(document.getElementById('root')).render(
     <StrictMode>
-    <RouterProvider router={router} />
+        <RouterProvider router={router} />
     </StrictMode>,
 )
