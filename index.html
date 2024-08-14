@@ -14,8 +14,23 @@
 
   <title>Bapenda Maluku Utara</title>
   
-  <script type="module" crossorigin src="/bapenda-malut-web/assets/index-953QK5Do.js"></script>
-  <link rel="stylesheet" crossorigin href="/bapenda-malut-web/assets/index-5dxTSKeP.css">
+  <script type="text/javascript">
+    (function (l) {
+      if (l.search[1] === "/") {
+        var decoded = l.search
+          .slice(1)
+          .split("&")
+          .map(function (s) {
+            return s.replace(/~and~/g, "&");
+          })
+          .join("?");
+        window.history.replaceState(null, null, l.pathname.slice(0, -1) + decoded + l.hash);
+      }
+    })(window.location);
+  </script>
+
+  <script type="module" crossorigin src="/bapenda-malut-web/assets/index-7nvomEjJ.js"></script>
+  <link rel="stylesheet" crossorigin href="/bapenda-malut-web/assets/index-tgg8GfpN.css">
 </head>
 
 <body>
